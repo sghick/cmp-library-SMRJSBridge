@@ -1,12 +1,13 @@
 //
 //  ViewController.m
-//  SMRJSBridgeDemo
+//  SMRJSBridge
 //
-//  Created by 丁治文 on 2018/7/17.
-//  Copyright © 2018年 sumrise.com. All rights reserved.
+//  Created by 丁治文 on 2018/6/13.
+//  Copyright © 2018年 dingzhiwen. All rights reserved.
 //
 
 #import "ViewController.h"
+#import "SMRWebController.h"
 
 @interface ViewController ()
 
@@ -19,6 +20,10 @@
     // Do any additional setup after loading the view, typically from a nib.
 }
 
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    SMRWebController *controller = [[SMRWebController alloc] init];
+    [self presentViewController:controller animated:YES completion:nil];
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD28CA1520FF4CFE00E9E8C2 /* SMRJSBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = BD28CA1320FF4CFE00E9E8C2 /* SMRJSBridge.m */; };
+		BD28CA1620FF4CFE00E9E8C2 /* UIWebView+SMRJSBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = BD28CA1420FF4CFE00E9E8C2 /* UIWebView+SMRJSBridge.m */; };
+		BD28CA1920FF4D0700E9E8C2 /* SMRWebController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD28CA1720FF4D0600E9E8C2 /* SMRWebController.m */; };
 		FE81A26720FE46A600058EB6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE81A26620FE46A600058EB6 /* main.m */; };
 		FE81A26A20FE46A600058EB6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FE81A26920FE46A600058EB6 /* AppDelegate.m */; };
 		FE81A26D20FE46A600058EB6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE81A26C20FE46A600058EB6 /* ViewController.m */; };
@@ -27,6 +30,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BD28CA1120FF4CFE00E9E8C2 /* SMRJSBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMRJSBridge.h; sourceTree = "<group>"; };
+		BD28CA1220FF4CFE00E9E8C2 /* UIWebView+SMRJSBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+SMRJSBridge.h"; sourceTree = "<group>"; };
+		BD28CA1320FF4CFE00E9E8C2 /* SMRJSBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMRJSBridge.m; sourceTree = "<group>"; };
+		BD28CA1420FF4CFE00E9E8C2 /* UIWebView+SMRJSBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+SMRJSBridge.m"; sourceTree = "<group>"; };
+		BD28CA1720FF4D0600E9E8C2 /* SMRWebController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMRWebController.m; sourceTree = "<group>"; };
+		BD28CA1820FF4D0700E9E8C2 /* SMRWebController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMRWebController.h; sourceTree = "<group>"; };
 		FE81A26220FE46A600058EB6 /* SMRJSBridgeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SMRJSBridgeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE81A26620FE46A600058EB6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FE81A26820FE46A600058EB6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -60,9 +69,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BD28CA1020FF4CFE00E9E8C2 /* SMRJSBridge */ = {
+			isa = PBXGroup;
+			children = (
+				BD28CA1120FF4CFE00E9E8C2 /* SMRJSBridge.h */,
+				BD28CA1220FF4CFE00E9E8C2 /* UIWebView+SMRJSBridge.h */,
+				BD28CA1320FF4CFE00E9E8C2 /* SMRJSBridge.m */,
+				BD28CA1420FF4CFE00E9E8C2 /* UIWebView+SMRJSBridge.m */,
+			);
+			name = SMRJSBridge;
+			path = ../SMRJSBridge;
+			sourceTree = "<group>";
+		};
 		FE81A25920FE46A600058EB6 = {
 			isa = PBXGroup;
 			children = (
+				BD28CA1020FF4CFE00E9E8C2 /* SMRJSBridge */,
 				FE81A26420FE46A600058EB6 /* SMRJSBridgeDemo */,
 				FE81A27E20FE46A600058EB6 /* SMRJSBridgeDemoTests */,
 				FE81A26320FE46A600058EB6 /* Products */,
@@ -85,6 +107,8 @@
 				FE81A26920FE46A600058EB6 /* AppDelegate.m */,
 				FE81A26B20FE46A600058EB6 /* ViewController.h */,
 				FE81A26C20FE46A600058EB6 /* ViewController.m */,
+				BD28CA1820FF4D0700E9E8C2 /* SMRWebController.h */,
+				BD28CA1720FF4D0600E9E8C2 /* SMRWebController.m */,
 				FE81A26E20FE46A600058EB6 /* Main.storyboard */,
 				FE81A27120FE46A600058EB6 /* Assets.xcassets */,
 				FE81A27320FE46A600058EB6 /* LaunchScreen.storyboard */,
@@ -213,7 +237,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD28CA1520FF4CFE00E9E8C2 /* SMRJSBridge.m in Sources */,
+				BD28CA1920FF4D0700E9E8C2 /* SMRWebController.m in Sources */,
 				FE81A26D20FE46A600058EB6 /* ViewController.m in Sources */,
+				BD28CA1620FF4CFE00E9E8C2 /* UIWebView+SMRJSBridge.m in Sources */,
 				FE81A26A20FE46A600058EB6 /* AppDelegate.m in Sources */,
 				FE81A26720FE46A600058EB6 /* main.m in Sources */,
 			);
@@ -412,6 +439,7 @@
 				FE81A28620FE46A600058EB6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FE81A28720FE46A600058EB6 /* Build configuration list for PBXNativeTarget "SMRJSBridgeDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +448,7 @@
 				FE81A28920FE46A600058EB6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  SMRWebController.h
 //  SMRJSBridge
 //
 //  Created by 丁治文 on 2018/6/13.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface SMRWebController : UIViewController
 
 @end
-
